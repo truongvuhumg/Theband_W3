@@ -1,0 +1,143 @@
+/*Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Nguyên tắc*/
+/*
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Tổng quan đến chi tiết
+*/
+
+/*Câu hỏi khi làm*/
+/*
+1.vị trí
+2.kích thước
+3. màu sắc
+4. kiểu dáng(kiểu chữ, hình tròn, hình vuông...
+*/
+#main{
+
+}
+
+#header{
+    height: 50px;
+    background-color: #000;
+    
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav, .subnav{
+    list-style: none;
+}
+
+#nav > li{
+    display: inline-block;
+}
+
+#nav li{
+    position: relative;
+}
+
+#nav > li > a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width:  160px;
+}
+
+#nav .subnav a{
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+
+#header .search-btn{
+    float:right;
+    padding: 0 21px;
+
+}
+
+#header .search-icon{
+    color: #fff;
+    font-size: 20px;
+    line-height:46px;
+    
+}
+#header .search-btn:hover{
+    color: #fff;
+    background-color: #f44336;
+    cursor: pointer;
+    
+}
+#slider{
+    margin-top: 0px;
+}
+
+#content{
+
+}
+
+#footer{
+
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* 
+1.vị trí
+2.kích thước
+3. */
+#main{
+
+}
+#header{
+    background-color: black;
+}
+#slider{
+
+}
+#Content{
+
+}
+#footer{
+
+}
